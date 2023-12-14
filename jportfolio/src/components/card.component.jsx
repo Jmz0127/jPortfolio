@@ -1,11 +1,10 @@
-function Card() {
+function Card({ title, description }) {
 	return (
 		<div>
-			<p>title</p>
-			<p>another title</p>
+			<p>{title}</p>
+			<p>{description}</p>
 		</div>
 	);
 }
 
-
-export default Card
+export default Card;
